@@ -12,3 +12,14 @@
     border-color: black;
     border-style: solid;
 }
+
+input {
+    width: 80%;
+    background: white;
+    font-size: 1rem;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 1rem
+}

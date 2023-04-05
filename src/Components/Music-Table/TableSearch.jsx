@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './MusicTable.css'
 
 function TableSearch() {
   const [tableData, setTableData] = useState([]);
@@ -21,14 +22,15 @@ function TableSearch() {
   }
 
   return (
-    <div>
+    <div className='form-margin'>
       <form>
         <input
           type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
+          className="search"
         />
-        <button onClick={() => setFilteredTableData(filterTableData(searchQuery))}>Search</button>
+        <button className='btn btn-primary' onClick={() => setFilteredTableData(filterTableData(searchQuery))}>Search</button>
       </form>
     </div>
   );

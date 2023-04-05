@@ -95,7 +95,7 @@ const SongForm2 = () => {
             </div>
         </label>
         <br />
-        <button className='btn btn-primary' type="submit">Submit</button>
+        <button className='btn btn-primary' onChange={handleSubmit()} type="submit">Submit</button>
         </form>
     </div>
   );
