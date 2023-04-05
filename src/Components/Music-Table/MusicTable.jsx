@@ -29,13 +29,6 @@ class MusicTable extends React.Component {
     render() {
         return (
             <div>
-        <form>
-            <input
-            type="text"
-            
-            />
-        <button>Search</button>
-        </form>
                 <table className='table table-hover  table-striped table-responsive-sm table-margin'>
                     <thead>
                         <tr>

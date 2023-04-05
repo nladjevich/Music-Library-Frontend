@@ -1,11 +1,10 @@
 .form-spacing {
-    margin: 2rem;
     justify-content: center;
     text-align: center;
 }
 
 .group-margin {
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .form-border {

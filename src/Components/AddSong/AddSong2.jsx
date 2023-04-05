@@ -20,7 +20,7 @@ function SongForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post('/api/songs/', formData)
+    axios.post('http://localhost:3000/api/music_library/', formData)
       .then((response) => {
         console.log(response);
       })

@@ -30,17 +30,6 @@ function TableSearch() {
         />
         <button onClick={() => setFilteredTableData(filterTableData(searchQuery))}>Search</button>
       </form>
-        <table>
-            <thead>
-            <tr>
-                <th>Title</th>
-                <th>Artist</th>
-                <th>Album</th>
-                <th>Release Date</th>
-                <th>Genre</th>
-            </tr>
-            </thead>
-        </table>
     </div>
   );
 
